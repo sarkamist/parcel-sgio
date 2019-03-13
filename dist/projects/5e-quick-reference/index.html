@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sarkamist's D&D Homebrew Reference</title>
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="/styles.13ae45a0.css">
+    <link rel="shortcut icon" type="image/png" href="/favicon.6247b5c0.ico">
+<script src="/styles.13ae45a0.js"></script></head>
+<body class="page-background">
+    <div class="page fontsize" data-size="fullscreen">
+
+        <!-- Adventuring section -->
+        <div id="section-adventuring" class="section-container">
+            <div class="section-title">
+                Adventuring
+            </div>
+            <div class="section-content">
+                <div class="section-row section-subtitle text fontsize">
+                    Adventurers can take short rests in the midst of an adventuring day and a long rest to end the day.
+                </div>
+                <div class="section-row" id="adventuring-rests"></div>
+                <div class="section-row section-subtitle text fontsize">
+                    Determining travel time depend on two factors: the speed and travel pace of the creatures moving and the terrain they're moving over.
+                </div>
+                <div class="section-row" id="traveling"></div>
+            </div>
+        </div>
+
+        <!-- Movement section -->
+        <div id="section-movement" class="section-container">
+            <div class="section-title">
+                Movement <span class="float-right">limited by movement speed</span>
+            </div>
+            <div class="section-content">
+                <div class="section-row section-subtitle text fontsize">
+                    You can move at any time during your turn (before, after, or during actions).
+                </div>
+                <div class="section-row" id="basic-movement">
+                </div>
+            </div>
+        </div>
+
+        <!-- Action section -->
+        <div id="section-action" class="section-container">
+            <div class="section-title">
+                Action <span class="float-right">1/turn</span>
+            </div>
+            <div class="section-content">
+                <div class="section-row section-subtitle text fontsize">
+                    You can also interact with one object or feature of the
+                    environment for free.
+                </div>
+                <div class="section-row" id="basic-actions"></div>
+            </div>
+        </div>
+
+        <!-- Bonus action section -->
+        <div id="section-bonus-action" class="section-container">
+            <div class="section-title">
+                Bonus action <span class="float-right">max. 1/turn</span>
+            </div>
+            <div class="section-content">
+                <div class="section-row section-subtitle text fontsize">
+                    You can take a bonus action only when a special ability, spell, or feature
+                    states that you can do something as a bonus action.
+                </div>
+                <div class="section-row" id="basic-bonus-actions"></div>
+            </div>
+        </div>
+
+        <!-- Reaction section -->
+        <div id="section-reaction" class="section-container">
+            <div class="section-title">
+                Reaction <span class="float-right">max. 1/round</span>
+            </div>
+            <div class="section-content">
+                <div class="section-row section-subtitle text fontsize">
+                    A reaction is an instant response to a trigger of some kind, which
+                    can occur on your turn or on someone else's.
+                </div>
+                <div class="section-row" id="basic-reactions"></div>
+            </div>
+        </div>
+
+        <!-- Condition section -->
+        <div id="section-condition" class="section-container">
+            <div class="section-title">
+                Conditions
+            </div>
+            <div class="section-content">
+                <div class="section-row section-subtitle text fontsize">
+                    Conditions alter your capabilities in a variety of ways, and can arise as a result of a spell, a class feature, a monster's attack, or other effect.
+                </div>
+                <div class="section-row" id="basic-conditions"></div>
+                <div class="section-row section-subtitle text fontsize">
+                    Characters who don't eat, drink or sleep properly may suffer the effects of exhaustion.
+                </div>
+                <div class="section-row" id="physiological-conditions"></div>
+            </div>
+        </div>
+        
+        <!-- Environmental section -->
+        <div id="section-environment" class="section-container">
+            <div class="section-title">
+                Environmental Effects
+            </div>
+            <div class="section-content">
+                <div class="section-row section-subtitle text fontsize">
+                    Effects that obscure vision can prove a significant hindrance to most adventuring tasks.
+                </div>
+                <div class="section-row" id="environment-obscurance"></div>
+                <div class="section-row section-subtitle text fontsize">
+                    The presence or absence of light in an environment creates three categories of illumination.
+                </div>
+                <div class="section-row" id="environment-light"></div>
+                <div class="section-row section-subtitle text fontsize">
+                    Some creatures have extraordinary senses that allow them to perceive their environment.
+                </div>
+                <div class="section-row" id="environment-vision"></div>
+                <div class="section-row section-subtitle text fontsize">
+                    Obstacles can provide cover during combat, making a target more difficult to harm.
+                </div>
+                <div class="section-row" id="environment-cover"></div>
+                <div class="section-row section-subtitle text fontsize">
+                    Adventuring in the wilderness or descending into a dungeon presents a host of perils beyond the threats of monstrous predators and savage raiders.
+                </div>
+                <div class="section-row" id="environment-hazards"></div>
+            </div>
+        </div>
+
+        <!-- Other Effects section -->
+        <div id="section-other-effects" class="section-container">
+            <div class="section-title">
+                Other Effects
+            </div>
+            <div class="section-content">
+                <div class="section-row section-subtitle text fontsize">
+                    Creatures can be affected from various other sources.
+                </div>
+                <div class="section-row" id="modifiers"></div>
+                <div class="section-row section-subtitle text fontsize">
+                    Creatures can be infected by a wide array of threatening diseases.
+                </div>
+                <div class="section-row" id="diseases"></div>
+                <div class="section-row section-subtitle text fontsize">
+                    Creatures can be cursed by spells, divine intervention, planar laws and magic anomalies.
+                </div>
+                <div class="section-row" id="curses"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Modal -->
+    <div class="modal" id="modal" tabindex="-1">
+        <div class="modal-backdrop" id="modal-backdrop"></div>
+        <div class="modal-dialog modalsize">
+            <div class="section-container modal-container" id="modal-container">
+                <div class="section-title" id="modal-title">
+                    Modal title<span class="float-right">Action</span>
+                </div>
+                <div class="section-content">
+                    <div class="section-row section-subtitle text" id="modal-subtitle">
+                        Subtitle
+                    </div>
+                    <div class="section-row text">
+                        <div id="modal-bullets">
+                        </div>
+                    </div>
+                    <div class="section-row text" id="modal-reference">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Password -->
+    <div class="modal" id="password" tabindex="-1">
+        <div class="modal-backdrop" id="password-backdrop"></div>
+        <div class="modal-dialog passwordsize">
+            <div class="section-container modal-container" id="password-container">
+                <div class="section-title" id="password-title">
+                    Hidden content&ensp;<i class="fas fa-lock"></i><button class="float-right" id="password-cancel">X</button>
+                </div>
+                <div class="section-content">
+                    <div class="section-row section-subtitle text" id="password-subtitle">
+                        Please, input password to reveal the hidden content:
+                    </div>
+                    <div class="section-row text">
+                        <input name="password-field" id="password-field" type="password">
+                        <button id="password-button" type="button">Unlock</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Data -->
+    <script type="text/javascript" src="/scripts.a54ca74e.js" charset="utf-8"></script>
+</body>
+</html>

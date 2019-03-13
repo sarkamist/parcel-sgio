@@ -1,0 +1,76 @@
+{
+   "projects": [
+      {
+         "id": "quickref",
+         "name": "5e Quick Reference",
+         "shortname": "5e Quick Reference",
+         "fa_icon": "<i class='fas fa-dice-d20'></i>&nbsp;",
+         "description": "A D&D 5e quick reference sheet, made for quick lookup of various rulings featured across different documents. Also contains homebrew rules.",
+         "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "jQuery"],
+         "url": "./projects/5e-quick-reference/index.html"
+      }, {
+         "id": "tongues",
+         "name": "Tongues Sandbox Environment",
+         "shortname": "Tongues SE",
+         "fa_icon": "<i class='fas fa-file-code'></i>&nbsp;",
+         "description": "A sandbox environment created to replicate Roll20 API in order to test my script <span style='font-weight: bold !important;'>Tongues</span> on a simulated environment. Allows you to see different chat boxes with different privileges and allows usage of <span style='font-weight: bold !important;'>Tongues</span> commands to translate and change settings.",
+         "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "jQuery"
+         ],
+         "url": "./projects/tongues-sandbox-environment/index.html"
+      }, {
+         "id": "airbus-royale",
+         "name": "Airbus Royale",
+         "shortname": "Airbus Royale",
+         "fa_icon": "<i class='fas fa-plane'></i>&nbsp;",
+         "description": "A simple application that allows you to drag and drop emergency items into certain slots of a plane layout and then validate they are in the correct position.",
+         "tags": [
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "Font Awesome",
+            "JavaScript"
+         ],
+         "url": "./projects/airbus-royale/index.html"
+      }
+   ],
+   "technologies": {
+      "HTML": {
+         "color": "#fd7e14",
+         "font_color": "#fff",
+         "fa_icon": "<i class='fab fa-html5'></i>&nbsp;"
+      },
+      "CSS": {
+         "color": "#17a2b8",
+         "font_color": "#fff",
+         "fa_icon": "<i class='fab fa-css3-alt'></i>&nbsp;"
+      },
+      "Bootstrap": {
+         "color": "#6f42c1",
+         "font_color": "#fff",
+         "fa_icon": ""
+      },
+      "Font Awesome": {
+         "color": "#1971c2",
+         "font_color": "#fff",
+         "fa_icon": "<i class='fab fa-font-awesome'></i>&nbsp;"
+      },
+      "JavaScript": {
+         "color": "#ffc107",
+         "font_color": "#212529",
+         "fa_icon": "<i class='fab fa-js'></i>&nbsp;"
+      },
+      "jQuery": {
+         "color": "#0769ad",
+         "font_color": "#fff",
+         "fa_icon": ""
+      }
+   }
+}

@@ -1,0 +1,9 @@
+@import '../fonts/fonts.css';
+
+.f-nunito {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.f-inconsolata {
+    font-family: 'Inconsolata', monospace;
+}
